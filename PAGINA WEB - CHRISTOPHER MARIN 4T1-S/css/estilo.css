@@ -1,0 +1,39 @@
+.PieDePagina{
+    background: navy;
+}
+.PieDePagina p{
+    color: white;
+    text-align: center;
+    top: auto;
+}
+.PrimerSeccion{
+    background: white;
+}
+.SegundaSeccion{
+    background: white;
+}
+.LadoDerechoDelAside{
+    background: orange;
+    color: white;
+}
+body{
+    background: gray;
+}
+.PieDePagina{
+    height: 100;
+}
+.LadoDerechoDelAside{
+    height: 35%;
+}
+header nav ul{
+    text-align: center;
+    background: navy;
+    list-style: none;
+}
+header nav ul a{
+    text-decoration: none;
+}
+
+a{
+    color: white;
+}
