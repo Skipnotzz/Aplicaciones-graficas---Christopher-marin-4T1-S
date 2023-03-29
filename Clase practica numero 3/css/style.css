@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+nav{
+    width: 100%;
+    height: 15vh;
+    background-color: white;
+}
+
+.brand {
+    margin-right: 5%;
+    line-height: 15vh;
+}
+
+.brand a{
+    color: blue;
+    font-size: 15px;
+}
+
+ul{
+    float: right;
+    margin-right: 5%;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 15vh;
+}
+
+nav ul li a{
+    color: black;
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.PrimeraSecccion{
+    text-align: center;
+}
+
+footer{
+    width: 100%;
+    height: 37vh;
+    background-color: rebeccapurple;
+}
+
+footer p{
+    color: white;
+}
+
+.LazoIzquierdo{
+    text-align: center;
+}
+
+.LadoDerecho{
+    text-align: center;
+}
+
+.img-banner{
+    background-image: url("../img/banner.webp");
+    width: 1800px;
+    height: 150px;
+    background-repeat: no-repeat;
+}
+
+.TerceraSeccion{
+    background-color: steelblue;
+    width: 100%;
+    height: 15vh;
+}
+
+.TerceraSeccion h2{
+    text-align: center;
+    color: white;
+    line-height: 500%;
+}
