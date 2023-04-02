@@ -1,0 +1,96 @@
+/*Complementos globales*/
+body{
+    background-color: chocolate;
+}
+h4{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+b{
+    padding-left: 55px;
+}
+/*Primer parte*/
+
+.LazoIzquierdo > .FormacionAcademica > .Imagen{
+    padding-top: 10px;
+    text-align: center;
+}
+
+.LazoIzquierdo > .FormacionAcademica > .Imagen > img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.LazoIzquierdo{
+    position: absolute;
+    left: 170px;
+    height: 630px;
+    width: 300px;
+    background-color: gray;
+}
+
+.LazoIzquierdo > .FormacionAcademica > h4{
+    text-align: center;
+}
+
+.LazoIzquierdo > .FormacionAcademica > p{
+    padding-left: 25px;
+    color: white;
+}
+
+.LazoIzquierdo > .OtrosConocimientos > h4{
+    text-align: center;
+}
+
+.LazoIzquierdo > .OtrosConocimientos > p{
+    padding-left: 25px;
+    color: white;
+}
+
+.LazoIzquierdo > .Contacto > h4{
+    text-align: center;
+}
+
+.LazoIzquierdo > .Contacto > p{
+    padding-left: 25px;
+    color: white;
+}
+
+/*Segunda parte*/
+.LadoDerecho{
+    position: relative;
+    left: 461px;
+    height: 630px;
+    width: 600px;
+    background-color: white;
+}
+
+.LadoDerecho > .MiNombre{
+    font-size: 30px;
+    text-align: center;
+}
+
+.LadoDerecho > .MiNombre > p{
+    font-size: 25px;
+}
+
+.LadoDerecho > .LineaDeTexto > P{
+    color: white;
+}
+
+.LadoDerecho > .LineaDeTexto{
+    background: rgb(125, 136, 135);
+    padding-left: 10px;
+    padding-top: 1px;
+    width: 525px;
+    height: 40px;
+}
+
+.LadoDerecho > .Informacion > P{
+    padding-left: 50px;
+}
