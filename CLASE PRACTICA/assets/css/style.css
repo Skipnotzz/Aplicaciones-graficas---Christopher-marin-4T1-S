@@ -1,0 +1,109 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+header {
+    background-color: white;
+}
+
+.logo {
+    text-align: center;
+    color: white;
+    align-items: center;
+    display: flex;
+}
+
+.banner {
+    background-image: url(../img/images\ \(11\).png);
+    background-repeat: no-repeat;
+    height:60vh;
+} 
+
+.text {
+    padding-top: 200px;
+    text-align: center;
+    color: white;
+}
+
+form {
+    background-color: #337529;
+    height: 100%;
+    color: white;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+}
+
+img .search {
+    background-color: yellow;
+    width: 100%;
+}
+
+.view {
+    margin-top: 10px;
+    color: white;
+}
+
+.paragraph {
+    text-align: center;
+    padding: 20px;
+}
+
+.img-fluid {
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.join {
+    background-color: #333333;
+    color: white;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.input-group .btn {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+  }
+   
+
+
+footer {
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    justify-content: center;
+}
+
+.nav-elements {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 16px;
+    padding-top: 20px;
+    padding-right: 10px;
+}
+
+.btn-warning {
+    color: #000;
+    background-color: #ffc107;
+    border-color: #ffc107;
+    width: 100%;
+}
+  
+  .icons img {
+    margin: 0 10px;
+    width: 20px;
+    height: 30px;
+    bottom: 2px;
+  }
+
+.copy {
+    padding: 20px;
+}
